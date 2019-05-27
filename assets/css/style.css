@@ -143,8 +143,166 @@ p {
       bottom: 0;
       left: 0;
       right: 0;
-      z-index; 3000;
+      z-index: 3000;
 
   }
   
-  
+
+   /* MEDIA QUERIES */
+
+
+  /* 980px */
+  @media screen and (max-width: 980px){
+    .name {
+      margin-left: 58px;
+      font-size: 150%;
+    }
+
+
+    header {
+      box-sizing: border-box;
+      height: 69px;
+      }
+
+    #wrapper {
+      width: 100%;
+      max-width: 500px;
+      margin-left: 50px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    .name2 {
+      margin-right: 38px;
+      font-size: 120%;
+    }
+
+    #message {
+      width: 100%;
+      max-width: 500px;
+    }
+
+    /* ????  Why can't I get margin under wrapper for contact page only in this media query? */
+    /* form {
+      padding-bottom: 0;
+      margin-bottom: 0;
+    } */
+
+    footer {
+      height: 35px;
+      font-size: 75%;
+    }
+
+  }
+
+
+
+/* ipad portrait */
+  @media screen and (max-width: 768px)  {   
+    
+    body {
+      margin:0;
+    
+    }
+
+    header {
+    box-sizing: border-box;
+    height: 69px;
+    }
+
+    .name {
+      margin-left: 21px;
+      font-size: 150%;
+    }
+
+    .name2 {
+      margin-right: 38px;
+      font-size: 150%;
+    }
+    
+    #wrapper {
+      width: 100%;
+      max-width: 600px;
+    }
+
+
+    #message {
+      width: 100%;
+      max-width: 600px;
+    }
+  }
+
+  /* ipad landscape */
+  /* @media screen and (max-width: 1024px) and (orientation: landscape) {   
+    
+    header {
+    box-sizing: border-box;
+    height: 69px;
+    }
+
+    .name {
+      margin-left: 15px;
+      font-size: 150%;
+    }
+
+    .name2 {
+      margin-right: 75px;
+      font-size: 150%;
+    }
+    
+    #wrapper {
+      width: 100%;
+      max-width: 600px;
+    }
+
+
+    #message {
+      width: 100%;
+      max-width: 600px;
+    }
+  } */
+
+
+  /* phone portrait */
+  @media screen and (max-width: 640px){
+
+    body {
+      margin:0;
+    }
+
+    header {
+      position: static;
+    }
+
+    .headerbreak {
+      display: inline;
+    }
+
+    #wrapper {
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .name {
+      clear: left;
+      /* position: absolute; */
+      width: 100%;
+      font-size: 140%;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 20px, 0, 0, 0;
+      height: 63px;
+      display: inline-block;
+      text-align: center;
+      /* vertical-align: center; */
+    }
+
+    .name2 {
+      clear: both;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      height: 63px;
+      background: white;
+      text-align: center;
+    }
