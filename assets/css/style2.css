@@ -365,8 +365,40 @@ padding-right: 5px;
           text-align: center;
         }
 
-        /* img {
-          width: 100%;
-        } */
-       
-
+        /* get images to stack during small screen */
+        #float1 {
+          clear: both;
+          width: auto;
+          position: static;
+          /* display: flex;
+          justify-content: center; */
+        }
+        #float2 {
+          clear: both;
+          width: auto;
+          position: static;
+          /* display: flex;
+          justify-content: center; */
+        } 
+        #float3 {
+          clear: both;
+          width: auto;
+          position: static;
+          /* display: flex;
+          justify-content: center; */
+        }
+        #float4 {
+          clear: both;
+          width: auto;
+          position: static;
+          /* display: flex;
+          justify-content: center; */
+        }
+        #float5 {
+          clear: both;
+          width: auto;
+          position: static;
+          /* display: flex;
+          justify-content: center; */
+        }
+    }
